@@ -10,7 +10,7 @@ for i in range(n):
 print("c = {0} ".format(c))
 c1=list(c)
 for el in c:
-    if a<=el<=b:
+    if a<=abs(el)<=b:
         c1.remove(el)
 print("c1 = {0}".format(c1))
 if len(c1)<len(c):
