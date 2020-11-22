@@ -17,6 +17,6 @@ module1 = math.sqrt((a[0])**2+(a[1])**2)
 module2 = math.sqrt((b[0])**2+(b[1])**2)
 print(module1)
 print(module2)
-cos = math.cos(product/module1*module2)
+cos = product/(module1*module2)
 print("Cos = {0}".format(cos))
 
